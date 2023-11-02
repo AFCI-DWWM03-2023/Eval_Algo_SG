@@ -1,0 +1,2 @@
+Score après la manche 1 = Utilisateur (0 ++;) - Ordinateur (1) | Vainqueur : Ordinateur
+Score après la manche 2 = Utilisateur (0 ++;) - Ordinateur (2) | Vainqueur : Ordinateur
