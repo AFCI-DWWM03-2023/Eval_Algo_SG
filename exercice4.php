@@ -3,15 +3,15 @@
 $avion = ["BOING747", "AIRBUSA380", "LEARJET45", "DC10", "CONCORDE", "ANTONOV32"];
 $codeAvion = ["BO", "AB", "LJ", "DC", "CO", "AN"];
 $vitesseCroisiere = [800, 950, 700, 900, 1400, 560];
-$rayonAction = [10000, 12000, 4500, 8000, 16000, 2500]; 
+$rayonAction = [10000, 12000, 4500, 8000, 16000, 2500];
 $tempRayon = 0;
 $tempVitesse = 0;
 $keyRayon = 0;
 $boucle = "O";
 
 echo (" ****    AVION ****    " . "\n" . "\n");
-while ($boucle == "O") { 
-    $code = readline("Entrez le code de l'avion : ");//demande du code avion
+while ($boucle == "O") {
+    $code = readline("Entrez le code de l'avion : "); //demande du code avion
     $trouve = false;
     foreach ($codeAvion as $keyCode => $verifCode) { //Verif si le code existe dans le tableau
         if ($verifCode == $code) {

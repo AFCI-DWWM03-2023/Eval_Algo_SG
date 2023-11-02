@@ -2,14 +2,18 @@
 
 echo (" ****    TABLE DE MULTIPLICATION ****    " . "\n" . "\n");
 
-// a)
+// a) Petit mis en commentaire au cas ou pour la correction
+
 // $nombre = readline("Entrer le nombre pour lequel vous voulez la table de multiplication :"); //demande du nombre pour afficher sa table
 // for($i=1;$i <= 10; $i ++){ 
 //     $resultat = $i * $nombre ; //calcule de la table
 //     echo($nombre . "             x " . $i . "           = " . $resultat  . "\n" ); //affichage de la table
 // }
 
+
+
 // b)
+
 $boucle = "O";
 while ($boucle) {
     $boucle = "N";
@@ -31,10 +35,3 @@ while ($boucle) {
         }
     }
 }
-
-
-
-
-
-
-
